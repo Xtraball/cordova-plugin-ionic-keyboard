@@ -1,10 +1,20 @@
 {
-  "name": "cordova-plugin-ionic-keyboard",
+  "name": "Keyboard",
   "version": "2.2.0",
   "description": "Ionic Keyboard Plugin",
   "scripts": {
     "release": "standard-version -a",
     "pre-release": "standard-version -a -p --skip.changelog=true --skip.tag=true"
+  },
+  "cordova": {
+    "id": "Keyboard",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "osx",
+      "windows"
+    ]
   },
   "standard-version": {
     "scripts": {
