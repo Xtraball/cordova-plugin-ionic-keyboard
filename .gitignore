@@ -1,1 +1,4 @@
+.idea
+.DS_Store
+*.sw[mnpcod]
 node_modules

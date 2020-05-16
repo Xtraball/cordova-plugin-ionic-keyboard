@@ -9,10 +9,6 @@
     <issue>https://github.com/ionic-team/cordova-plugin-ionic-keyboard/issues</issue>
     <author>Apache Software Foundation</author>
 
-    <engines>
-	    <engine name="cordova" version=">=3.2.0"/>
-    </engines>
-
     <!-- ios -->
     <platform name="ios">
 
@@ -21,7 +17,7 @@
         </js-module>
 
         <config-file target="config.xml" parent="/*">
-            <feature name="CDVIonicKeyboard">
+            <feature name="Keyboard">
                 <param name="ios-package" value="CDVIonicKeyboard" onload="true"/>
             </feature>
         </config-file>
